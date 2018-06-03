@@ -1,4 +1,5 @@
 import media
+import movies_page
 
 toy_story = media.Movie("Toy Story", 
 	"A story of a boy and his toys that come to life",
@@ -16,4 +17,11 @@ pokemon_the_first_movie = media.Movie("Pokemon the First Movie",
 	"https://www.youtube.com/watch?v=sSLuNZFa_3k")
 
 #print(avatar.storyline)
-pokemon_the_first_movie.show_trailer()
+#pokemon_the_first_movie.show_trailer()
+
+train_to_busan = media.Movie("Train to Busan",
+	"A father tries to send his child to Busan to visit the mother, however due to unfortunate circumstances, the train was full of zombies",
+	"https://upload.wikimedia.org/wikipedia/en/9/95/Train_to_Busan.jpg",
+	"https://www.youtube.com/watch?v=pyWuHv2-Abk")
+movies = [toy_story, avatar, pokemon_the_first_movie, train_to_busan]
+movies_page.open_movies_page(movies)
