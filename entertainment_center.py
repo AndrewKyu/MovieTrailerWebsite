@@ -24,4 +24,5 @@ train_to_busan = media.Movie("Train to Busan",
 	"https://upload.wikimedia.org/wikipedia/en/9/95/Train_to_Busan.jpg",
 	"https://www.youtube.com/watch?v=pyWuHv2-Abk")
 movies = [toy_story, avatar, pokemon_the_first_movie, train_to_busan]
-movies_page.open_movies_page(movies)
+#movies_page.open_movies_page(movies)
+print(media.Movie.VALID_RATINGS)

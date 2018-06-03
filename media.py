@@ -1,6 +1,9 @@
 import webbrowser
 
 class Movie():
+	#all instances can share this rating to see if it's a valid rating
+	VALID_RATINGS = ["G", "PG", "PG-13", "R"] #class variable
+
 	def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
 		self.title = movie_title
 		self.storyline = movie_storyline
